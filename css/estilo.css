@@ -1,0 +1,46 @@
+#footer			{	font-size:9px; color:#FFF; text-align:center; width:100%; font-family:Verdana, Geneva, sans-serif;}
+
+#jsapp{
+	border:5px solid #222;
+	display: none;
+    width:640px;
+    height:480px;
+	box-shadow:0 4px 10px #000;
+
+}
+
+#caucho_pj{
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	background: url(../image/caucho_pj.png) center;
+	margin: 390px 0 0 250px;
+	
+	}
+	
+.tooltip {
+background: transparent url(../image/tooltip.png) center no-repeat;
+width: 290px;
+height: 300px;
+position: absolute;
+margin: 90px 50px;
+z-index: 1;
+display: none;
+opacity: 0;
+filter: alpha(opacity = 0); /* Para el señor IE*/
+-moz-opacity:0; /* Para los firefox de la edad de piedra */
+font-family:Verdana, Geneva, sans-serif;
+font-size: 10px;
+color:#333;
+text-align:justify;
+}
+
+.tooltip h2{
+	text-align:center;
+	font-size: 12px;
+	color:f2f2;
+	}
+	
+.tooltip p{
+	margin: 16px;
+	}

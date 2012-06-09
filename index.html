@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>melonJS - Tutorial</title>
+		<title>Cauchos - La leyenda del arból de Guacarí</title>
+        
+         <script type="text/javascript" src="lib/melonJS-0.9.3-min.js"></script>
+           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+            <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+  			<script type="text/javascript" src="js/principal.js"></script>
+            <script type="text/javascript" src="js/tooltips.js"></script>
+  			 <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+           
+			
+        
 	</head>
-	<body bgcolor="black">
+	<body bgcolor="#333333">
+   <a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <center>
+    
+    <div class="tooltip">
+<h2>Cauchos, La leyenda del arbol de Guacari</h2>
+<p>Caucho es un juego creado con el motor de juegos HTML5 por Manuel Vergara y Samuel Espinoza, en el se pretende mostrar un poco de la historia de uno de los municipios del Valle del Cauca.</p>
+<p>Si te ha gustado el juego puedes ver la documentacion en GitHub o mas info en <b>alejovergara.com</b>.</p>
+
+<p>Santiago de Cali, Colombia. 2012. Todos los derechos reservados.</p>
+</div><!-- fin tooltip -->
+    
+    <div id="caucho_pj"></div>
       <div id="info" style="width: 640px;">
 		<div id="fps" style="float: right;">
 			<font color="#FFFFFF", style ="font-size: 10px; font-family: Courier New">
-			<span id="framecounter">(0/0 fps)</span>
 			</font>
 		</div></div>
-		<div id="jsapp">
-		<script type="text/javascript" src="lib/melonJS-0.9.3-min.js"></script>
-      <script type="text/javascript" src="gameObj.js"></script>
-		<script type="text/javascript" src="main.js"></script>
-		</div>
+      
+        
+        
+        
+        <div id="container">
+        
+            <div id="jsapp">
+         <script src="main.js" type="text/javascript" ></script>
+			<script src="gameObj.js" type="text/javascript" ></script>
+             </div>
+  
+       		<div id="slideshow">
+             <img src="image/sponsor01.png" />
+			 <img src="image/sponsor02.png" />
+            
+             <div id="history">
+				<img src="image/historia1.png" />
+			</div>
+             <div id="history2">
+				<img src="image/historia2.png" />
+			</div>
+             <div id="history3">
+				<img src="image/historia3.png" />
+			</div>
+           
+            </div>
+            
+            
+            <div id="footer"><br /><br />
+       		 Cauchos - Frameworks, Universidad Santiago de Cali, Manuel Alejandro Vergara, Samuel Espinoza. 2012
+       		 </div>
+           </center>
 	</body>
 </html>
